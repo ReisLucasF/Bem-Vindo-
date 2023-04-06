@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- fontes -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Estilo -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="imgs/logo.svg" type="image/x-icon">
+    <title>Document</title>
+    
+</head>
+<body>
+    <header id="header">
+        <div id="inner-header">
+            <nav id="navbar">
+                <a href="#header">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+                <a href="#portfolio">Portfólio</a>
+            </nav>
+            <!-- Menu Mobile -->
+        </div>
+    </header>
+
+    <main class="Main1">
+        <div class="menuR">
+            <img id="icons" src="imgs/icons1.png" alt="">
+        </div>
+
+        
+        <div class="menuC">
+            <div>
+                <h1 class="titulo">Seja bem vindo!</h1>
+                <p class="paragrafo">Aqui você encontrará alguns dos meus projetos desenvolvidos até o momento e até mesmo os que estão sendo desenvolvidos, pois eu atualizo o conteúdo deste site sempre que algo novo ocorre :D.</p>
+            </div>
+
+            <div>
+                <button class="btn-yl">Sobre mim</button>
+                <button class="btn-trans-branco">Veja meu portfólio</button>
+            </div>
+        </div>
+
+        <div class="menuL">
+            <img id="EuSentado" src="imgs/fotinha minha .png" alt="">
+        </div>
+    </main>
+
+    <main class="Main2" id="sobre">
+        <h1>Sobre mim</h1>
+        <p>Olá! Meu nome é Lucas Reis e tenho 23 anos. Atualmente estou cursando o segundo período do curso de Análise e Desenvolvimento de Sistemas na PUC Minas. Desde muito jovem, sempre fui fascinado pela tecnologia e tudo que há de inovador no mundo digital.</p>
+        <p>Minha paixão pela área de front-end me levou a desenvolver habilidades em várias linguagens, como HTML, CSS, JavaScript e React. Além disso, também possuo habilidades em design com Figma, Photoshop e Blender.</p>
+        <p>Com a determinação de um desenvolvedor apaixonado, estou sempre em busca de novas maneiras de aprimorar minhas habilidades e expandir meus conhecimentos na área. Acredito que a tecnologia pode ser uma poderosa ferramenta para mudar o mundo e estou empenhado em fazer minha parte para alcançar esse objetivo.</p>
+        <p>Se você está procurando um desenvolvedor front-end dedicado, criativo e que está sempre pronto para encarar novos desafios, fique à vontade para explorar meu portfólio e conhecer um pouco mais sobre meu trabalho.</p>
+    </main>
+
+    <main class="Main3" id="portfolio">
+        <h1>Meus projetos</h1>
+        <p>Compartilhar os projetos que desenvolvi é um dos meus maiores prazeres! Cada linha de código escrita e cada desafio superado me trouxeram uma imensa satisfação. Nesta seção, você encontrará alguns dos meus projetos mais recentes e interessantes. Espero que possam ser úteis para você, assim como foram para mim. Sinta-se à vontade para explorar e entrar em contato caso tenha alguma dúvida ou comentário!</p>
+        <div class="cardsPjt">
+            <!-- Projeto1 -->
+            <div class="card" id="card1">
+                <img src="imgs/Hemolife.png" alt="">
+                <button class="vrProjeto">Ver projeto</button>
+            </div>
+            <!-- Projeto2 -->
+            <div class="card" id="card2">
+                <img src="imgs/CalculadoraIMC.png" alt="">
+                <button class="vrProjeto">Ver projeto</button>
+            </div>
+            <!-- Projeto3 -->
+            <div class="card" id="card3">
+                <img src="imgs/Forkfinder.png" alt="">
+                <button class="vrProjeto">Ver projeto</button>
+            </div>
+        </div>
+    </main>
+
+    <main class="Main4">
+        <div class="ColL">
+            <h1>Contato</h1>
+            <p>Se de alguma forma eu chamei a sua atenção, não hesite em entrar em contato comigo! Serei feliz em conversar com você e descobrir como posso ajudá-lo. Deixe sua mensagem no formulário abaixo ou envie um e-mail para [seu e-mail aqui], e eu entrarei em contato o mais breve possível.</p>
+            <p>Quer me conhecer melhor? Então baixe aqui o meu currículo e descubra mais sobre mim e minhas habilidades! Estou ansioso para compartilhar minha história com você.</p>
+            <a href="Docs/currículo 2022.pdf" download><button class="btn-dwn">Baixe aqui o meu currículo</button></a>
+        </div>
+
+        <div class="contato" id="contato">            
+            <!-- Formulário de contato -->
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="b05dde29-35a6-44d0-9cc5-ac5d72c76cdd">
+                
+                <!-- Entrada de Nome -->
+                <label>Nome</label>
+                <input type="text" name="name" id="nome" placeholder="Digite seu nome" required>
+                
+                <!-- Entrada de e-mail -->
+                <label>E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                
+                <!-- Entrada de Mensagem -->
+                <label>Mensagem</label>
+                <textarea name="message" id="mensagem" cols="30" rows="10" placeholder="Digite a sua mensagem" required></textarea>
+
+                <input type="hidden" name="redirectTo" value="https://lucasreisf.com.br/obrigado-pelo-contato">
+
+                <button class="btn-rox" type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+
+
+</body>
+</html>
