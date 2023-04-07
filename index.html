@@ -12,6 +12,11 @@
     
     <!-- Estilo -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
     
     <!-- Favicon -->
     <link rel="shortcut icon" href="imgs/logo.svg" type="image/x-icon">
@@ -44,8 +49,8 @@
             </div>
 
             <div>
-                <button class="btn-yl">Sobre mim</button>
-                <button class="btn-trans-branco">Veja meu portfólio</button>
+                <a href="#sobre"><button class="btn-yl">Sobre mim</button></a>
+                <a href="#portfolio"><button class="btn-trans-branco">Veja meu portfólio</button></a>
             </div>
         </div>
 
@@ -65,22 +70,34 @@
     <main class="Main3" id="portfolio">
         <h1>Meus projetos</h1>
         <p>Compartilhar os projetos que desenvolvi é um dos meus maiores prazeres! Cada linha de código escrita e cada desafio superado me trouxeram uma imensa satisfação. Nesta seção, você encontrará alguns dos meus projetos mais recentes e interessantes. Espero que possam ser úteis para você, assim como foram para mim. Sinta-se à vontade para explorar e entrar em contato caso tenha alguma dúvida ou comentário!</p>
-        <div class="cardsPjt">
+        
+        <div class="cardsPjt" name="filtroProjeto" id="filtroProjeto">
+
             <!-- Projeto1 -->
-            <div class="card" id="card1">
+            <div class="card" id="card1" onclick="Srcprojeto(1)">
                 <img src="imgs/Hemolife.png" alt="">
                 <button class="vrProjeto">Ver projeto</button>
             </div>
+
             <!-- Projeto2 -->
-            <div class="card" id="card2">
+            <div class="card" id="card2" onclick="Srcprojeto(2)">
                 <img src="imgs/CalculadoraIMC.png" alt="">
                 <button class="vrProjeto">Ver projeto</button>
             </div>
+
             <!-- Projeto3 -->
-            <div class="card" id="card3">
+            <div class="card" id="card3" onclick="Srcprojeto(3)">
                 <img src="imgs/Forkfinder.png" alt="">
                 <button class="vrProjeto">Ver projeto</button>
             </div>
+
+            <!-- Âncora para scroll -->
+        </div>
+    </main>
+
+    <main class="flutuante">
+        <p id="nomeProjeto"></p>
+        <div id="projeto">
         </div>
     </main>
 
@@ -115,8 +132,6 @@
             </form>
         </div>
     </main>
-
-
 
 </body>
 </html>
