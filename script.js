@@ -65,7 +65,7 @@
                                 <main class="Lpjt">
                                     <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e2-proj-int-t2-time4-forkfinder/"><img src="imgs/forkf.png" alt=""></a>
                                     <div id="btn-pjt">
-                                        <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e2-proj-int-t2-time4-forkfinder/"><button class="btn-yl">Ver protótipo</button></a>
+                                        <a href="https://www.figma.com/proto/T1G6PGjM6qgGRo4Fx0HKfs/Fork-Finder?node-id=1-268&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A268"><button class="btn-yl">Ver protótipo</button></a>
                                         <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-time4-forkfinder"><button class="btn-trans-branco">Ver diretório</button></a>
                                     </div>   
                                 </main>  
