@@ -298,16 +298,80 @@ input, textarea{
 textarea:focus,input:focus{
     border:solid 2px #240e35;
   }
+/* Sessão recolhivel (Projetos) */
+.flutuante{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin: 8rem 20rem;
+}
+.MainPjt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+.pjt img{
+    width: 60rem;
+    border-radius: 10px;
+    border: solid 5px #FDB827;
+    justify-content: center;
+    align-items: center;
+}
+.pjt{
+    display: grid;
+    grid-template-areas:
+    "Lpjt Rpjt";
+    grid-template-columns: 1fr 1fr;
+}
+
+.Lpjt{
+    grid-area: Lpjt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Rpjt{
+    grid-area: Rpjt;
+    margin-top: 1.5rem;
+}
+
+.Rpjt p{
+    text-align:left;
+    margin-top: 1.5rem;
+}
+
+.Rpjt h3{
+    color: var(--fc-primary);
+    font-size: 2rem;
+}
+
+.Rpjt aside{
+    margin-top: 1rem;
+    color: var(--fc-secondary);
+    font-size: var(--fs-body);
+}
 
 
+.btn-pjt{
+    margin-top: 2rem;
+}
 
-
-
-
+#nomeProjeto{
+    display: none;
+}
 
 
 
 /* Animações */
+html {
+    scroll-behavior: smooth;
+  }
+   
+  :target {
+    scroll-margin-top: .8em;
+  }
 
 header{
     animation: topdown 700ms;
