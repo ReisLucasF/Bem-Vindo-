@@ -81,14 +81,12 @@
     
         ]
     }
-    // Obtem os hemocentro informados pelo usuário nos filtros
+    
     var fr = document.querySelector(".name");
     function Srcprojeto(fr) {
     
-        // limpa a lista
         $("#projeto").empty();
     
-        // Popula a tabela com os registros do banco de dados
         document.getElementById('nomeProjeto').innerHTML = fr;
         for (let index = 0; index < db.dados.length; index++) {
             const indice = db.dados[index];
