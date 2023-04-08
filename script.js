@@ -99,8 +99,7 @@
             }
         };
     
-    }
-
+}
 
 
 function menuShow() {
@@ -113,4 +112,3 @@ function menuShow() {
         document.querySelector('.icon').src = "imgs/close_white_36dp.svg";
     }
 }
-    
